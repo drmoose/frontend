@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frontend Sample HTML page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/vendor.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Heading 1</h1>
+      <p>Paragraph</p>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <ol>
+        <li>First</li>
+        <li>Outside</li>
+        <li>Inside</li>
+        <li>Last</li>
+      </ol>
+      <p>Here is some text that&rsquo;s reasonably long and features an <a href="http://github.com">arbitrary link to github</a> as well as some <em>emphasised text</em>, some <b>bold text</b>, some <i>italics</i>, and some <strong>strong text</strong>.</p>
+    </section>
+    <section ng-app="app">
+      <h1>Here is a trivially simple angular app!</h1>
+      <label>Tell me something good! <input ng-model="myinput" /></label>
+      <p>You said {{myinput}}</p>
+    </section>
+
+    <script language="javascript" type="text/javascript" src="js/vendor.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/partials.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/site.js"></script>
+  </body>
+</html>
